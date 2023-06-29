@@ -1,5 +1,5 @@
-import { Person } from "../protocols/person-protocol";
-import { getPersonDB } from "../repositories/person-repositories";
+import { Person } from "@/protocols/person-protocol";
+import { getPersonDB } from "@/repositories/person-repositories";
 
 async function getPerson(): Promise<Person | null> {
   const people = await getPersonDB();

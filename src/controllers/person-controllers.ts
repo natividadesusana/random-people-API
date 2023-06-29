@@ -1,5 +1,5 @@
 import { Request, Response } from "express";
-import personService from "../services/person-service";
+import personService from "@/services/person-service";
 import httpStatus from "http-status";
 
 async function getPerson(req: Request, res: Response) {
