@@ -1,16 +1,16 @@
 # Random People API
 
-Esta é uma API simples que retorna informações sobre pessoas de forma aleatória. A cada requisição, a API retorna os dados de uma pessoa diferente do banco de dados.
+This is a simple API that returns information about random people using TypeScript. With each request, the API returns data from a different person from the database.
 
-## Tecnologias utilizadas
+## Technologies used
 
 - TypeScript
 - Node.js
-- Express
+- express
 
-## Banco de dados
-O banco de dados utilizado é o PostgreSQL. A tabela people contém as seguintes colunas:
+## Database
+The database used is PostgreSQL. The people table contains the following columns:
 
-- id (chave primária)
-- firstName (primeiro nome da pessoa)
-- lastName (sobrenome da pessoa)
+- id (primary key)
+- firstName (person's first name)
+- lastName (person's last name)
